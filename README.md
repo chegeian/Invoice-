@@ -10,10 +10,10 @@
 This is a web application that enables you to generate invoices at ease
 
 ## Project live site
-  This is the live .[ Click for the demo]()
+  This is the live .[ Click for the demo](https://react-invoice-generator.web.app/)
 
 ## Screenshot
-  ![Image](/images/pizza.png)
+ 
 
 ## Setup instructions
 * Clone the program from [Online repo]()
