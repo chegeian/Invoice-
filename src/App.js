@@ -1,7 +1,6 @@
-import React from 'react';
 import InvoiceForm from './components/InvoiceForm';
 
-export default function App() {
+function App() {
   return (
     <div className="min-h-screen bg-gray-100">
       <div className="mx-auto max-w-7xl">
@@ -11,3 +10,4 @@ export default function App() {
   );
 }
 
+export default App;
