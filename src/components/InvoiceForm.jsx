@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import  {uid }  from '../uid';
-import InvoiceItem from './InvoiceItem';
-import InvoiceModal from './InvoiceModal';
-import incrementString from './helpers/incrementString';
+import  {uid }  from 'uid';
+import InvoiceItem from '../components/InvoiceItem';
+import InvoiceModal from '../components/InvoiceModal';
+import incrementString from '../helpers/incrementString';
+
 const date = new Date();
 const today = date.toLocaleDateString('en-GB', {
   month: 'numeric',
@@ -35,7 +36,7 @@ const InvoiceForm = () => {
     setInvoiceNumber((prevNumber) => incrementString(prevNumber));
     setItems([
       {
-        id: uid(6),
+        id : uid(6),
         name: '',
         qty: 1,
         price: '1.00',
