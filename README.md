@@ -13,7 +13,7 @@ This is a web application that enables you to generate invoices at ease
   This is the live .[ Click for the demo](https://regal-biscotti-438644.netlify.app/)
 
 ## Screenshot
-  ![Image](/images/pizza.png)
+  ![Image](/screenshot-regal-biscotti-438644.netlify.app-2022.10.11-10_32_04.png)
 
 ## Setup instructions
 * Clone the program from [Online repo]()
